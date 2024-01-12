@@ -1,0 +1,5 @@
+# Eclude all environment files
+global-exclude *.py[cod] __pycache__ *.so *.dylib .DS_Store
+
+# exclude all .venv directories
+prune .venv
