@@ -34,6 +34,8 @@ def display_buildings(buildings):
         print(f"{index}. {building.name} - {building.unit_type} - R{building.rent}")
         print(f"   Seller: {building.prop_group}")
         #print(f"   Suburb: {building.suburb}")
-        #print(f"   Address: {building.address}")
+        print(f"   Address: {building.address}")
         print("------------------------")
     print()
+
+
