@@ -73,10 +73,11 @@ def create_building_objects(building_list):
     
 my_buildings = create_building_objects(get_buildings())
 
-for building in my_buildings:
-    print(building)
-    print(total_cost(3, building))
-    print()
+# for building in my_buildings:
+#     print(building)
+#     print(total_cost(6, building))
+#     print()
+
 
 
 

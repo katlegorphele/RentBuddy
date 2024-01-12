@@ -20,6 +20,7 @@ class Building:
         self.utilities = utilities
     
     def __str__(self):
+        
         return f"{self.name} costs {self.rent} per month"
     
     def __repr__(self):
